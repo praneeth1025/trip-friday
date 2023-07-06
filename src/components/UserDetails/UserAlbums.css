@@ -1,0 +1,50 @@
+.user-post-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .user-post-heading {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+  }
+  
+
+
+  .user-post-heading h3 {
+    margin: 0;
+  }
+  
+  /* .user-post-heading svg {
+    margin-left: 5px;
+  }
+   */
+  .user-album-body {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .user-album-body:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .user-album-body p {
+    margin: 0;
+  }
+  
+ .user-post-container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .icon-rotated{
+    transform: rotate(90deg);
+  }
